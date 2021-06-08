@@ -1,0 +1,101 @@
+@import "./base.scss";
+
+.storeListing {
+  margin: 15px 0;
+
+  .storeName {
+    font-weight: 600;
+  }
+  .storeAddr {
+    font-size: 12px;
+    margin-bottom: 3px;
+    font-weight: 400;
+    color: #aaa;
+    letter-spacing: 0.2px;
+  }
+  .storeDetailTags {
+    font-size: 11px;
+  }
+  .storeDetail {
+    border-top: 1px solid #e2e1e1;
+  }
+  p {
+    margin: 5px 0;
+  }
+}
+
+.storeListingHome {
+  background: $white_color;
+  margin: 0;
+  padding: 10px;
+  border-top: 1px dashed #cecece;
+
+  .storeName {
+    font-weight: 400;
+  }
+}
+.offerTitle {
+  color: #07a707;
+  // font-size: 12px;
+  // line-height: 15px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.offerSection {
+  background-color: $white_color;
+}
+.storeTagValue {
+  font-weight: 500;
+}
+input.input_container {
+  border: none;
+  width: 100%;
+}
+select.form-control:not([size]):not([multiple]) {
+  height: calc(3rem + 2px);
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+}
+
+.swicth_button {
+  display: flex;
+
+  width: 100%;
+  align-items: center;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem !important;
+}
+.corrency {
+  width: 33px;
+  height: 39px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input.input_box {
+  padding: 7px 20px;
+}
+.minutes {
+  width: 68px;
+  height: 39px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.after {
+  width: 50px;
+  height: 39px;
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

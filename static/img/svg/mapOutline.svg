@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <clipPath id="clip-Menu_1">
+      <rect width="150" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_1" data-name="Menu – 1" clip-path="url(#clip-Menu_1)">
+    <rect width="150" height="150" fill="#fff"/>
+    <path id="Path_11807" data-name="Path 11807" d="M74.533,124.412l51.8-119.222a3.709,3.709,0,0,0-4.88-4.883L2.232,52.113A3.706,3.706,0,0,0,0,55.512c0,.071,0,.142.008.214a3.7,3.7,0,0,0,2.616,3.336L38.946,70.175a26.349,26.349,0,0,1,17.524,17.52L67.583,124.02a3.71,3.71,0,0,0,6.949.392ZM63.566,85.526A33.766,33.766,0,0,0,41.115,63.075l-26.7-8.164L115.779,10.864,71.735,112.227Z" transform="translate(11.679 11.979)" fill="#858aa8" fill-rule="evenodd"/>
+  </g>
+</svg>

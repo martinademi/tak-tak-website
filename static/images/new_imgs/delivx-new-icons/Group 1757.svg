@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.548 32.982">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3d4152;
+        stroke: #3d4152;
+        stroke-width: 0.2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_1757" data-name="Group 1757" transform="translate(1133.679 2221.096)">
+    <g id="reusable-shopping-bag_1_" data-name="reusable-shopping-bag (1)" transform="translate(-1133.579 -2224.216)">
+      <path id="Path_3141" data-name="Path 3141" class="cls-1" d="M32.337,34.584,30.358,4.4A1.263,1.263,0,0,0,29.1,3.22H13.381c-1.948,0-5.2,0-5.2,0H3.247A1.263,1.263,0,0,0,1.987,4.4L0,34.657A1.263,1.263,0,0,0,1.263,36H31.084a1.263,1.263,0,0,0,1.263-1.263A1.3,1.3,0,0,0,32.337,34.584ZM2.611,33.477,4.43,5.746H8.772c1.342.039,5.269-.012,2.526,0h9.749c-2.13.005-1.148.011,2.526,0h4.342l1.819,27.73Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

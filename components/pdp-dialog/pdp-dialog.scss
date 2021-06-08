@@ -1,0 +1,42 @@
+@import "../../assets/base.scss";
+.prodetailsRecomItemAddBtnDV {
+  width: 100%;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: $main_theme_color;
+  font-weight: 500;
+  background-color: $white_color;
+  border: 1px solid #ccc;
+  letter-spacing: 0.3px;
+  border-radius: 0px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  &:hover {
+    box-shadow: 0 2px 8px #d4d5d9 !important;
+  }
+}
+
+.addOnBtnDV {
+  position: absolute;
+  right: 20px;
+  z-index: 0;
+  top: -2px;
+  font-size: 14px;
+  color: $main_theme_color;
+}
+
+.addOnBtnDV {
+  position: absolute;
+  right: 5%;
+  z-index: 0;
+  top: -2px;
+  font-size: 14px;
+  color: $main_theme_color;
+}
+
+.foodListMV {
+  .addOnBtnDV {
+    right: 18px;
+  }
+}

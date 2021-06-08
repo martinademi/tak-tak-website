@@ -1,0 +1,11 @@
+.emptyScreen {
+  display: flex;
+  height: calc(100vh - 100px);
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .emptyStore {
+    width: 65%;
+    margin: 0 auto;
+  }
+}

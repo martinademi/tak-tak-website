@@ -1,0 +1,49 @@
+$main_theme_color: #f8ba1a;
+$white_color: #fff;
+$disabled_bg_color: #edf1f7;
+$disabled_font_color: #999;
+$blue_base_color: #2196f3;
+$black_color: #000;
+$light_black_color: #282c3f;
+$lighter_black_color: #7e808c;
+$grey_color: #93959f;
+$light_grey_color: #eee;
+$red_base_color: #f73c3c;
+
+$main_font_family: "Roboto", "Helvetica", "Arial", sans-serif;
+
+.mobile-hide {
+  display: block;
+}
+
+.mobile-show {
+  display: none;
+}
+
+.tab-hide {
+  display: block;
+}
+
+.tab-show {
+  display: none;
+}
+
+// mobile hide and mobile show  -- for mobile devices
+@media screen and (max-width: 575px) and (min-width: 240px) {
+  .mobile-hide {
+    display: none !important;
+  }
+  .mobile-show {
+    display: block !important;
+  }
+}
+
+// tab hide and tab show  -- for tab size devices
+@media screen and (max-width: 768px) and (min-width: 575px) {
+  .tab-hide {
+    display: none !important;
+  }
+  .tab-show {
+    display: block !important;
+  }
+}

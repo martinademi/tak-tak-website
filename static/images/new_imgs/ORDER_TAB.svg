@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #535665;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(2267 1443)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="25" cy="25" r="25" transform="translate(-2267 -1443)"/>
+    <g id="bag-for-shopping-in-black-shape" transform="translate(-2255 -1462)">
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M23.3,32H3.328L0,55.3H26.624Zm-4.261,6.469c-.478,3.934-2.813,6.843-5.723,6.843S8.066,42.4,7.589,38.469a1.657,1.657,0,1,1,2.4-1.477,1.634,1.634,0,0,1-.741,1.347c.4,2.988,2.1,5.309,4.069,5.309s3.666-2.32,4.069-5.309a1.634,1.634,0,0,1-.741-1.347,1.664,1.664,0,1,1,2.4,1.477Z"/>
+    </g>
+  </g>
+</svg>

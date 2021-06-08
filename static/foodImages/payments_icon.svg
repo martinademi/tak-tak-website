@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-My_orders);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-My_orders">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="My_orders" data-name="My orders" class="cls-1">
+    <g id="Group_1772" data-name="Group 1772" transform="translate(2422 2845)">
+      <g id="_x35_liati.tif_2_" transform="translate(-2488.556 -2843.488)">
+        <g id="Group_1751" data-name="Group 1751">
+          <g id="Group_1750" data-name="Group 1750">
+            <path id="Path_3529" data-name="Path 3529" class="cls-2" d="M112.3,39.2C108,28.4,103.7,17.7,99.4,6.9A11.782,11.782,0,0,0,98.3,5a4.965,4.965,0,0,0-3.1-1.8H93.8c-6,2.6-12.1,5.2-18.1,7.7-.9.4-1.7.7-2.5,1.1a5.352,5.352,0,0,0-3.1,3.9c0,.1-.1.2-.1.3v1.7c.2.5.3,1,.5,1.5C74.7,30.2,79,41,83.2,51.8c1.1,2.7,4,4.7,7.5,3.1,6.1-2.8,12.2-5.4,18.3-8A5.768,5.768,0,0,0,112.3,39.2Z"/>
+            <path id="Path_3530" data-name="Path 3530" class="cls-2" d="M112.7,25.9c-.2-.3-.2-.5-.3-.6-2.9-7.3-5.7-14.5-8.6-21.8a.6.6,0,0,1-.1-.4h4.5a5.666,5.666,0,0,1,3.4,2.2,6.044,6.044,0,0,1,1,3.2C112.7,14.3,112.7,20,112.7,25.9Z"/>
+            <path id="Path_3531" data-name="Path 3531" class="cls-2" d="M124.4,16.1c-1.4,3.5-2.8,7.1-4.2,10.6-.6,1.5-1.2,3.1-1.8,4.6a2.39,2.39,0,0,0-.3.7V7.4a45.109,45.109,0,0,1,4.4,2.2A5.429,5.429,0,0,1,124.4,16.1Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

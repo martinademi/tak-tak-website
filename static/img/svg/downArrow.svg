@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffa800"/>
+      <stop offset="1" stop-color="#ff9b45"/>
+    </linearGradient>
+    <clipPath id="clip-Menu_4">
+      <rect width="150" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="Menu_4" data-name="Menu – 4" clip-path="url(#clip-Menu_4)">
+    <rect width="150" height="150" fill="#fff"/>
+    <g id="right-arrow" transform="translate(145.356 7.6) rotate(90)">
+      <path id="Path_11806" data-name="Path 11806" d="M41.115,133.033a4.524,4.524,0,0,1-6.393,0,4.524,4.524,0,0,1,0-6.393L90.935,70.428,34.723,14.215a4.52,4.52,0,0,1,6.393-6.393l59.409,59.409a4.524,4.524,0,0,1,0,6.393Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

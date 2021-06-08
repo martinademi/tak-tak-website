@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Help_center);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-size: 46.54px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+      }
+    </style>
+    <clipPath id="clip-Help_center">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Help_center" data-name="Help center" class="cls-1">
+    <g id="Group_1774" data-name="Group 1774" transform="translate(2280 2845)">
+      <g id="oJtkPZ.tif_2_" transform="translate(-2488.556 -2843.488)">
+        <g id="Group_1755" data-name="Group 1755">
+          <g id="Group_1754" data-name="Group 1754">
+            <path id="Path_3537" data-name="Path 3537" class="cls-2" d="M266.2,24.6a4.253,4.253,0,0,1-.2-1.1,27.764,27.764,0,1,0-31,33.2c.3,0,.5.2.8.3h3.8a14.723,14.723,0,0,0,3.6-.4c.8-.2,1.6-.4,2.5-.6,11.2-3.2,18.1-10.5,20.5-21.9h0a18.406,18.406,0,0,0,.5-4.1V28.2A23.907,23.907,0,0,0,266.2,24.6Z"/>
+          </g>
+        </g>
+      </g>
+      <text id="_" data-name="?" class="cls-3" transform="translate(-2259.36 -2798.588)"><tspan x="0" y="0">?</tspan></text>
+    </g>
+  </g>
+</svg>

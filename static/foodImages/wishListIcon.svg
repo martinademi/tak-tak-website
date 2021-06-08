@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Wish_list);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+    <clipPath id="clip-Wish_list">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Wish_list" data-name="Wish list" class="cls-1">
+    <g id="Group_1776" data-name="Group 1776" transform="translate(2074 2844)">
+      <g id="KB1hQ5.tif_2_" transform="translate(-2488.556 -2843.488)">
+        <g id="Group_1762" data-name="Group 1762">
+          <g id="Group_1761" data-name="Group 1761">
+            <path id="Path_3541" data-name="Path 3541" class="cls-2" d="M450.3,13H434.8V4h15.5Z"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_3542" data-name="Path 3542" class="cls-2" d="M433.8,8.8H424V54.9h36.5V41.6" transform="translate(-2488.556 -2843.488)"/>
+      <path id="Path_3543" data-name="Path 3543" class="cls-2" d="M450.3,8.8h10.2V32.4" transform="translate(-2488.556 -2843.488)"/>
+      <path id="Path_3544" data-name="Path 3544" class="cls-2" d="M447,35.2l7.5,7.5,18.6-17.4" transform="translate(-2488.556 -2843.488)"/>
+    </g>
+  </g>
+</svg>

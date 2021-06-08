@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.275 33.282">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3d4152;
+        stroke: #3d4152;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g id="magnifying-glass_7_" data-name="magnifying-glass (7)" transform="translate(0.2 0.25)">
+    <path id="Path_3134" data-name="Path 3134" class="cls-1" d="M32.541,31.11l-7.967-7.967a13.989,13.989,0,1,0-1.381,1.381l7.967,7.967a.988.988,0,0,0,.691.291.957.957,0,0,0,.691-.291A.983.983,0,0,0,32.541,31.11ZM2.005,13.978A12.015,12.015,0,1,1,14.021,26,12.029,12.029,0,0,1,2.005,13.978Z" transform="translate(0)"/>
+  </g>
+</svg>

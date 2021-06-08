@@ -1,0 +1,62 @@
+.check-out-address .suggestion-item ::before,
+.suggestion-item--active ::before {
+  position: absolute;
+  font-size: 16px !important;
+  /* left: calc(0% + 5px) !important; */
+  color: #666;
+  left: calc(0% + 20px) !important;
+}
+
+/* .check-out-address .suggestion-item, .suggestion-item--active {
+    padding: 20px 0px;
+    padding-right: 30px;
+    margin-left: 0px !important;
+    padding-left: 25px !important;
+} */
+
+.suggestion-item,
+.suggestion-item--active {
+  padding: 20px 0px;
+  padding-right: 30px;
+  margin-left: 0px !important;
+  padding-left: 25px !important;
+}
+
+.suggestion-item,
+.suggestion-item--active {
+  padding: 20px 0px;
+  padding-right: 20px;
+  margin-left: 60px;
+  font-size: 14px;
+  border-bottom: 1px dashed #ccc;
+  z-index: 9999 !important;
+  position: relative;
+  letter-spacing: 0.3px;
+}
+
+.autocomplete-dropdown-container:first-child {
+  color: red !important;
+}
+
+.suggestion-item ::before,
+.suggestion-item--active ::before {
+  /* content: '\f041'; */
+  /* content: '\f276'; */
+  content: "\f124" !important;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  left: calc(0% - 30px);
+  background: transparent;
+  color: #666;
+  z-index: 999;
+  top: calc(20px);
+}
+
+.suggestion-item :hover,
+.suggestion-item--active :hover,
+.suggestion-item :hover ::before,
+.suggestion-item--active :hover ::before {
+  color: #fc8019;
+  transition: 0.1s;
+}

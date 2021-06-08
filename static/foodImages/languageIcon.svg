@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Language);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-size: 25.265px;
+        font-family: Muli-Bold, Muli;
+        font-weight: 700;
+      }
+    </style>
+    <clipPath id="clip-Language">
+      <rect width="60" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Language" class="cls-1">
+    <g id="Group_1778" data-name="Group 1778" transform="translate(1910 2847)">
+      <line id="Line_228" data-name="Line 228" class="cls-2" x2="32.8" transform="translate(-1902.756 -2833.688)"/>
+      <line id="Line_229" data-name="Line 229" class="cls-2" y2="6.3" transform="translate(-1886.156 -2839.988)"/>
+      <path id="Path_3547" data-name="Path 3547" class="cls-2" d="M612.3,9.8s-4.2,9.9-7.8,14.1c-3.3,3.9-11.2,11.9-11.2,11.9" transform="translate(-2488.556 -2843.488)"/>
+      <path id="Path_3548" data-name="Path 3548" class="cls-2" d="M597.4,14.4s11.9,16.3,15.8,18.7" transform="translate(-2488.556 -2843.488)"/>
+      <text id="A" class="cls-3" transform="translate(-1873.875 -2800.557)"><tspan x="0" y="0">A</tspan></text>
+    </g>
+  </g>
+</svg>

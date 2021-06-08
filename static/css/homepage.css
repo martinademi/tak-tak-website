@@ -1,0 +1,821 @@
+/* homePage */
+
+.wrapLayout {
+    position: relative;
+}
+
+.catItems img {
+    margin: auto;
+    max-height: 55px;
+    height: 55px;
+    min-height: 55px;
+}
+
+.catItems p {
+    font-size: 11.5px;
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    color: #333;
+}
+
+.catTitle {
+    letter-spacing: 0.5px;
+}
+
+.catTitle h6 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #333;
+}
+
+.catTitle span {
+    line-height: 1;
+    /* font-size: 15px; */
+    /* color: #e96125; */
+    /* font-weight: 600; */
+    margin-top: 10px;
+    cursor: pointer;
+    /* font-weight: 400; */
+    text-transform: capitalize;
+}
+.catTitle a span {
+    color: #e96125;
+}
+.catTitle span::after {
+    content: "\f105";
+    font-size: 17px;
+    padding: 0 5px;
+    color: #e96125;
+    font-weight: 500;
+}
+
+.hide-after span::after {
+    content: unset !important;
+}
+
+.categoriesTitleLayout p {
+    color: #a5a5a5;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0.3px;
+}
+
+/* slides */
+
+.brands .card .card-body h5 {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.featuredItems .card, .product-card .card {
+    border-radius: 0;
+    box-shadow: unset;
+    /* margin: 1% 0.5%; */
+    /* border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee; */
+}
+
+.product-card .card {
+    padding: 0px 25px;
+}
+
+.featuredItems .card img {
+    border-radius: 0;
+    margin: auto;
+    height: 130px;
+    max-height: 130px;
+    object-fit: contain;
+}
+
+.brands img {
+    margin: 10px auto;
+    height: 80px;
+    max-height: 80px;
+}
+
+.brands .card {
+    padding-bottom: 0px;
+}
+
+.brands .topBrandsTitle {
+    margin-top: 15px;
+}
+
+.featuredItems .card-title {
+    font-weight: 500;
+    font-size: 14px;
+    color: #666 !important;
+    min-height: 60px;
+    line-height: 1.4;
+    margin: 0px;
+    word-break: break-word;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.featuredItems .card-body {
+    padding: 0;
+}
+
+.featuredItems .card-quantity {
+    color: #999;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.beforeOffer {
+    color: #aaa;
+    line-height: 1.2;
+    font-size: 15px;
+}
+
+.afterOffer {
+    font-weight: 500;
+    color: #333;
+}
+
+/* .cartButtonLayout button{
+    padding: 8px 0px !important;
+    background: #e96125;
+    border-radius: 15px;
+    font-size: 11px;
+} */
+
+.offer {
+    border: 1px solid #51aa1b;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 0px 4px;
+    /* font-weight: 600; */
+    color: #51aa1b;
+    letter-spacing: 0.5px;
+    background: #f2fef2;
+    z-index: 1;
+    position: relative;
+    font-weight: 500;
+}
+
+.beforePriceRate {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+/* slides */
+
+.categoriesArrowLayout {
+    font-size: 20px;
+    color: #333;
+}
+
+.catTitle h6 {
+    text-transform: capitalize;
+}
+
+.topBrandsTitle {
+    /* font-size: 13px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize; */
+    font-size: 13px !important;
+    text-transform: capitalize;
+    margin: 0;
+    line-height: 1.3;
+    color: #333;
+}
+
+.offersAvailableLayout {
+    font-size: 14px !important;
+    color: #51aa1b !important;
+    font-weight: 600 !important;
+    margin: 10px 0;
+}
+
+/* homePage */
+
+/* all media queries */
+
+@media (min-width: 992px) {
+    /* homePage */
+    .cartButtonLayout button {
+        /* padding: 8px 0px !important;
+        background: #e96125;
+        border-radius: 15px;
+        font-size: 11px; */
+        padding: 6px 0px !important;
+        background: #e96125 !important;
+        border-radius: 15px;
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+    .categoriesTitleLayout h6 {
+        font-size: 15.5px;
+        /* font-family: 'Patua One', "Open Sans", sans-serif; */
+        color: #333;
+        margin-bottom: 3px !important;
+        font-weight: 500;
+    }
+    .categories {
+        border: 1px solid #f7f7f7;
+        background: #fff;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .categories:hover {
+        border: 1px solid #e7e7e7;
+    }
+    /* homePage */
+}
+
+/* mobile responsive */
+
+@media (max-width: 991px) {
+    /* homePage */
+    .featuredItems .card-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: auto;
+        font-weight: 400 !important;
+        font-size: 13px;
+    }
+    .cartButtonLayout button {
+        background: #e96125;
+        border-radius: 4px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .categoriesTitleLayout h6 {
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .categoriesImgLayout img {
+        
+        max-height: 100px !important;
+    }
+    .categoriesTitleLayout p {
+        font-size: 13px;
+    }
+    .categoriesArrowLayout {
+        padding: 0;
+    }
+    .categories {
+        background: #fff;
+        border: none !important;
+    }
+    .categoriesLayout {
+        padding: 2px;
+        border: 1px solid #eee;
+        background: #fff;
+    }
+    #categoriesLayoutWrapper {
+        padding: 0 19px;
+    }
+    .catTitle h6 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .homeNavUL li a {
+        font-size: 13px;
+    }
+    .tzNoPaddTabView {
+        padding: 0px;
+    }
+    .time-zone {
+        font-size: 11px;
+    }
+    .time-zone span {
+        font-size: 11px;
+    }
+    /* homePage */
+}
+
+@media screen and (max-width: 575px) and (min-width: 240px) {
+    /* homePage */
+    .mobileHidden {
+        display: none;
+    }
+    .categoriesLayout {
+        padding: 10px;
+    }
+    .categoriesTitleLayout {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .featuredItems .card img {
+        max-height: 90px !important;
+        width: 90px !important;
+    }
+    .product-saving {
+        margin-top: 5px;
+    }
+    .product-prices, .product-saving, .product-name {
+        text-align: left;
+    }
+    .product-name {
+        /* font-size: 14px;
+        font-weight: 400;
+        font-size: 14px; */
+        min-height: 40px;
+        max-height: 40px;
+        font-weight: 500;
+        white-space: normal !important;
+        /* height: 40px; */
+        text-align: left !important;
+        text-overflow: unset !important;
+        font-size: 13px;
+        letter-spacing: 0.3px;
+        color: #2F2E3A;
+    }
+    .product-price, .Store-name {
+        /* font-size: 12.5px; */
+        font-size: 12px;
+        letter-spacing: 0.3px;
+    }
+    /* .productQuantity{
+        display: none;
+    } */
+    .catTitle span {
+        /* font-size: 12px;
+        margin-top: 3px !important;
+        margin-bottom: 10px; */
+        font-size: 12px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        color: #666;
+        font-weight: 500;
+    }
+    .catTitle span::after {
+        font-size: 14px;
+    }
+    .product-price-before, .Store-description {
+        font-size: 10px;
+    }
+    .product-description {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .categoriesTitleLayout h6 {
+        /* font-size: 16px;
+        font-weight: 700; */
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .bannerItems img {
+        height: 165px !important;
+        max-height: 165px !important;
+        min-height: 165px !important;
+    }
+    .catItems p {
+        font-size: 10px;
+    }
+    .catItems img {
+        max-height: 50px;
+        height: 50px;
+        min-height: 50px;
+    }
+    .catTitle h3 {
+        /* font-size: 16px; */
+        margin-bottom: 0px;
+        color: #858B92;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .catTitle p {
+        font-size: 12px;
+        display: none;
+    }
+    .catTitle {
+        padding: 15px;
+    }
+    .mobilePad {
+        padding: 15px 15px;
+    }
+    .featuredItems {
+        padding: 0px !important;
+        /* padding-top: 3px !important; */
+        padding-top: 2px !important;
+    }
+    .catProdListCommSec .featuredItems {
+        padding: 15px !important;
+    }
+    .product-card .card{
+        min-height: 288px;
+    }
+    .featuredItems .card {
+        padding: 5px !important;
+        /* margin: 0px 2px 10px 0px !important; */
+        margin: 0px 0px 10px 0px !important;
+        /* min-height: 288px; */
+    }
+    .categoriesImgLayout img {
+        /* height: 120px !important; */
+        height: 80px !important;
+        width: 100% !important;
+        
+    }
+    .bannerItems .slick-arrow {
+        display: none !important;
+    }
+    .featuredItems.brands.featuredItemsId img {
+        width: 100% !important;
+    }
+    .category__list {
+        /* padding: 15px 0 55px; */
+        padding: 0px 0 33px;
+    }
+    #categoriesLayoutWrapper {
+        /* padding: 0 5px;
+        background: #f0f0f0 !important; */
+        padding: 10px 6px 0px 6px;
+        background: #f0f0f0 !important;
+    }
+    .category__list li {
+        width: 100%;
+    }
+    .categories {
+        padding: 2px 3px;
+    }
+    .categoriesTitleLayout p {
+        color: #aaa;
+        font-size: 12px;
+    }
+    .categoriesTitleLayout {
+        white-space: pre-line;
+    }
+    .padResponsive0 {
+        padding: 0px !important;
+    }
+    .promo-discount {
+        font-size: 8px;
+        /* width: 25px;
+        height: 25px;
+        line-height: 25px; */
+        /* right: 0px; */
+        left: 5px;
+    }
+    .product-add-button {
+        /* width: 80%; */
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        border-radius: 4px;
+    }
+    .catTitle span::after {
+        content: "";
+    }
+    .wrapLayout {
+        /* background: #eee; */
+        background: #f0f0f0;
+    }
+    .bannerItems {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .brands .card {
+        padding: 0px !important;
+    }
+    .brands .card {
+        margin: 5px 3px !important;
+        border-radius: 2px !important;
+    }
+    /* homePage */
+}
+
+@media (max-width: 298px) {
+    /* homePage */
+    .categoriesArrowLayout {
+        display: none;
+    }
+    /* homePage */
+}
+
+/* all media queries */
+
+.homeNavUL li a {
+    color: #333;
+    /* font-weight: 500;
+    padding: 0;
+    padding-right: 20px;
+    font-size: 16px; */
+    font-weight: 500;
+    padding: 0;
+    padding-right: 15px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.homeNavUL li a:hover {
+    color: #1ec69f !important;
+}
+
+.time-zone .fa.fa-angle-right {
+    margin-left: 5px;
+}
+
+/* contact */
+
+.contactPage {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.contactPageSection {
+    margin-top: 70px;
+    background: #f7f8fa;
+}
+
+.contactHeaderLayout {
+    background: #e7eaee;
+}
+
+.contactHeaderH1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.callEmailH6Layout {
+    background: #f7f8f9;
+    border-bottom: 1px solid #eee;
+}
+
+.callEmailLayout .callEmailH6 {
+    font-size: 18px;
+    color: #383d48;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.callEmailP {
+    font-size: 15px;
+    color: #74787e;
+    font-weight: 400;
+    opacity: 0.8;
+    margin-top: 25px;
+}
+
+.callEmailAnch {
+    color: #2f88f6;
+    font-size: 16px;
+}
+
+.conMsgBtnLayout i {
+    margin-right: 5px;
+}
+
+.conMsgBtn {
+    background-color: #0084ff;
+    color: #fff;
+}
+
+.getTouchSection ul li a {
+    padding: 0;
+}
+
+.getTouchSection ul li {
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+
+.getTouchB {
+    color: #383d48;
+    font-weight: 600;
+    padding-bottom: 5px;
+    font-size: 17px;
+    display: block;
+}
+
+.getTouchAnch {
+    color: #2f88f6;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.getTouchP {
+    color: #383d48;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.getTouchH4 {
+    padding-bottom: 35px;
+    font-weight: 600;
+}
+
+/* Large devices (desktops, 576px and up) */
+
+@media (min-width: 576px) {
+    .flexBasis {
+        flex-basis: 48.5%;
+    }
+}
+
+/* Large devices (desktops, 576px and up) */
+
+@media (max-width: 991px) {
+    .callEmailLayout img {
+        width: 65px !important;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 240px) {
+    .contactHeaderH1 {
+        font-size: 30px;
+    }
+}
+
+/* contact */
+
+.listContent .tickMark.mapMark {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    background: gainsboro;
+    z-index: 5;
+}
+
+.tickMark {
+    border-color: #37718e;
+    background-color: #37718e;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* border: 1px solid rgba(40,44,63,.3); */
+    text-align: center;
+    transition: all .3s ease;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    display: inline-block;
+}
+
+.listContent .driverTitle h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.color {
+    color: #37718e !important;
+}
+
+.listContent .tickMark .selectedTick {
+    display: none;
+}
+
+.tickMark .selectedTick {
+    font-size: 16px;
+    top: 4px;
+    -webkit-animation: _1508g .2s ease-in;
+    animation: _1508g .2s ease-in;
+    position: absolute;
+    line-height: 15px;
+    left: 6px;
+    font-weight: 600;
+}
+
+.listContent .sideLine {
+    position: absolute;
+    border-left: 2px dashed rgba(0, 0, 0, .1);
+    top: 35px;
+    left: 27px;
+    bottom: -15px;
+}
+
+.listContent.active .driverTitle .tickMark.mapMark {
+    background-color: #37718e;
+    color: #fff;
+}
+
+.listContent.active .driverTitle h4 {
+    color: #37718e;
+}
+
+.listContent.active .sideLine {
+    border-color: #37718e;
+}
+
+.driverTitle {
+    padding: 18px 0px 0px 65px;
+}
+
+.listContent .MuiSvgIcon-root-32 {
+    font-size: 22px !important;
+    padding-top: 4px !important;
+}
+
+.TabContainer {
+    background-color: #fff;
+}
+
+/* map css */
+
+#liveTrackMap {
+    height: 300px;
+    width: 100%;
+}
+
+/* .contactUsBannerSec */
+
+.contactUsBannerSec {
+    background-image: url(/static/images/about-header.jpg);
+    background-size: auto;
+    background-position: center center;
+    /* padding-top: 40px;
+    padding-bottom: 60px; */
+    text-align: center;
+    background-repeat: repeat-x;
+    height: 180px;
+}
+
+.contactUsBannerSec .contactUsBannerH6Title {
+    color: #424242;
+    font-weight: 500;
+    font-size: 1.6em;
+    letter-spacing: 0.3px;
+}
+
+.contactUsBannerSec .contactUsBannerAnchEmail {
+    color: #636363;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+.contactUsOfficeAddressSec {
+    text-align: center;
+    background: #fff;
+}
+.contactUsOfficeAddressSec:hover{
+    box-shadow: 0 0 0px 0.3px rgba(0,0,0,0.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.contactUsOfficeAddressSec .contactUsOfficeAddressH5Title {
+    font-weight: 500;
+    font-size: 17px;
+    color: #424242;
+    margin-bottom: 15px;
+}
+
+.contactUsOfficeAddressSec .contactUsOfficeAddressPTag {
+    color: #626262;
+    font-size: 13.5px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1300px) {
+    .contactUsBannerSec {
+        background-size: contain !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .contactUsBannerSec {
+        height: 100px !important;
+        background-size: cover!important;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+/* .contactUsBannerSec */
+
+.mobileLandingDiv {
+    background-size: cover !important;
+    height: 100vh;
+    background-color: #000;
+    min-width: 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center 0 !important;
+}
+
+@media (max-height:500px){
+    .mobileLandingDiv{
+        background-position-y: -40px !important;
+    }
+}

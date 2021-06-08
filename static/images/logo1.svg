@@ -1,0 +1,40 @@
+<svg id="top_100" data-name="top 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 102.727 41.014">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d1d2d4;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        opacity: 0.27;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-size: 13px;
+        font-family: Streetwear;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.492" y1="0.222" x2="0.501" y2="0.663" gradientUnits="objectBoundingBox">
+      <stop offset="0.005" stop-color="#fac778"/>
+      <stop offset="1" stop-color="#fac778"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.496" y1="0.23" x2="0.502" y2="0.664" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#feac40"/>
+      <stop offset="1" stop-color="#feac40"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_63" data-name="Path 63" class="cls-1" d="M99.287,105.116c-13.24,15.25-111.823,14.5-97.938,0C6.4,99.836,103.357,100.428,99.287,105.116Z" transform="translate(-0.012 -75.261)"/>
+  <path id="Path_64" data-name="Path 64" class="cls-2" d="M67.566,0A95.9,95.9,0,0,1,82.532,1.133a33.356,33.356,0,0,1,7.7,12.8c-.155-.927-.335-1.855-.567-2.782A35.049,35.049,0,0,0,85.8,1.7a66.942,66.942,0,0,1,16.615,5.384,36.668,36.668,0,0,1,2.6,12.983c.129-.927.206-1.88.283-2.834a37.732,37.732,0,0,0-.541-8.913c7.342,4.147,11.695,9.531,11.772,15.4.335,21.432-97.629,21.432-97.938,0-.1-7.213,6.7-13.678,17.259-18.032a32.887,32.887,0,0,1,10.433,15.3c-.155-.927-.335-1.855-.567-2.782A34.222,34.222,0,0,0,38.9,4.534,82.6,82.6,0,0,1,59.3.361a32.623,32.623,0,0,1,10.51,15.379c-.155-.927-.335-1.855-.567-2.782A34.5,34.5,0,0,0,63.109.129C64.552.026,66.046,0,67.566,0Z" transform="translate(-13.808 0)"/>
+  <path id="Path_65" data-name="Path 65" class="cls-3" d="M47.6,81.515c22,11.334,84.956,9.067,90.133-6.749-9.428-6.311-26.12-9.943-44.9-8.836C72.767,67.09,55.663,73.349,47.6,81.515Z" transform="translate(-35.342 -48.8)"/>
+  <text id="Grocer" class="cls-4" transform="translate(26.674 28.706)"><tspan x="0" y="0">Grocer</tspan></text>
+</svg>

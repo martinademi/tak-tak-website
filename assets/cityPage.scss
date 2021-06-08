@@ -1,0 +1,420 @@
+@import "./base.scss";
+
+$color_2: #494d60;
+$color_3: #686b78;
+$color_4: #f7f7f7;
+$color_5: gray;
+$color_6: #8a584b;
+$background_color_1: #494d60;
+$background_color_3: #fc8019;
+$background_color_4: #f7f7f7;
+$background_color_5: #48c479;
+
+.cityPage {
+  .row {
+    margin: 0px !important;
+  }
+  .header-main-bloc {
+    background-color: $background_color_1;
+    height: 280px;
+    color: $white_color;
+    position: relative;
+  }
+  .leftPadding{
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+  }
+  .city-header-title {
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 100%;
+  }
+  .header-sub-title {
+    font-size: 1rem;
+  }
+  .header-input-button {
+    height: 3rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  .button-first-block {
+    color: $color_2;
+    background-color: $white_color;
+    font-size: 14px;
+    width: 72%;
+  }
+  .button-second-block {
+    background-color: $main_theme_color;
+    font-weight: bold;
+    width: 150px;
+    justify-content: center;
+  }
+  .locationLink {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .path {
+    background-color: $background_color_4;
+    height: 36px;
+  }
+  .path-text {
+    font-size: 9px;
+  }
+  .m-0 {
+    margin: 0px !important;
+  }
+  .p-0 {
+    padding: 0px !important;
+  }
+  .title {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .about-discription {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* padding-top: 5px; */
+    color: #686b78;
+    &:hover {
+      cursor: pointer;
+      color: #282c3f;
+    }
+  }
+  .item {
+    border: 0 !important;
+    border-radius: 0 !important;
+    position: relative;
+    overflow: hidden;
+  }
+  .overlay-text {
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+    color: $color_4;
+    width: 100%;
+    z-index: 3;
+  }
+  .custom-card-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    word-break: break-word;
+    margin-top: 15px;
+  }
+  .custom-card-text {
+    color: $color_3;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+  .footer-title {
+    color: $color_5;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .footer-text {
+    color: $white_color;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 10px;
+    &:hover{
+        cursor: pointer;
+        font-weight: 700;
+    }
+  }
+  .mobile {
+    display: none !important;
+  }
+  .desktop {
+    // display: block !important;
+  }
+  .star-icon {
+    background-color: $background_color_5;
+    color: $white_color;
+  }
+  .offer-image {
+    transition: transform 0.2s;
+    z-index: 2;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  .storeCard {
+    height: 350px;
+    width: 350px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .custom-card {
+    padding: 10px;
+    margin: 20px 10px;
+    &:hover {
+      -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+  }
+  .hover-bloc {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .offer-text {
+    color: $color_6;
+    padding: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  .offer-block {
+    border-top: 1px solid #e9e9eb;
+    margin-top: 10px !important;
+  }
+}
+
+// tablet sizes media query - start
+
+@media (min-width: 580px) and (max-width: 1200px) {
+  .header-sub-main-bloc {
+    width: 100%;
+  }
+  .city-header-title {
+    font-weight: 500 !important;
+    padding-right: 6rem !important;
+    font-size: 1.2rem;
+  }
+  .header-main-bloc {
+    background-color: $background_color_1;
+    height: auto;
+    padding-bottom: 20px !important;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .header-sub-title {
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+  }
+  .button-second-block {
+    background-color: $white_color;
+    width: 5%;
+    padding-right: 10px !important;
+  }
+  .button-first-block {
+    width: 96%;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .path {
+    display: none !important;
+  }
+  .about-discription {
+    font-size: 0.8rem;
+    font-weight: 350;
+    line-height: 17px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+  .offer-bloc {
+    flex-direction: column !important;
+    height: 240px;
+    overflow-x: scroll;
+  }
+  .item {
+    padding: 0px !important;
+    width: 230px !important;
+    height: 230px !important;
+  }
+  .card-img-overlay {
+    width: 230px !important;
+    height: 230px !important;
+  }
+  .card-title {
+    margin-bottom: 0px !important;
+  }
+  .overlay-text {
+    font-size: 1.2rem !important;
+  }
+  .custom-image {
+    height: 5rem;
+    width: 5rem !important;
+    object-fit: cover;
+  }
+  .custom-card {
+    display: flex;
+    flex-direction: row !important;
+    padding: 0px 0px 0px 0px !important;
+    &:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  .custom-card-title {
+    padding-top: 0px !important;
+    color: $white_color;
+    margin-top: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .card-block {
+    padding: 0px !important;
+    margin: 0px 0px 40px 0px !important;
+  }
+  .custom-card-text {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .star-icon {
+    background-color: $white_color;
+    color: $color_2;
+  }
+  .card-rating-block {
+    border-top: 1px solid #e9e9eb;
+    padding-top: 12px !important;
+  }
+  .offer-image {
+    &:hover {
+      transform: none;
+    }
+  }
+  .offer-block {
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    border: none;
+  }
+  .offer-text {
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+}
+
+// tablet sizes media query - end
+
+// mobile sizes media query - start
+
+@media (min-width: 320px) and (max-width: 580px) {
+  .city-header-title {
+    font-weight: 500 !important;
+    padding-right: 6rem !important;
+    font-size: 1.2rem;
+  }
+  .header-main-bloc {
+    background-color: $background_color_1;
+    height: 195px;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .header-sub-title {
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+  }
+  .button-second-block {
+    background-color: $white_color;
+    width: 15%;
+  }
+  .button-first-block {
+    width: 85%;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .path {
+    display: none !important;
+  }
+  .about-discription {
+    font-size: 0.8rem;
+    font-weight: 350;
+    line-height: 17px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+  }
+  .offer-bloc {
+    flex-direction: column !important;
+    height: 280px;
+    overflow-x: scroll;
+  }
+  .item {
+    padding: 0px !important;
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .card-title {
+    margin-bottom: 0px !important;
+  }
+  .overlay-text {
+    font-size: 1.2rem !important;
+  }
+  .custom-image {
+    height: 5rem;
+    width: 5rem !important;
+    object-fit: cover;
+  }
+  .custom-card {
+    display: flex;
+    flex-direction: row !important;
+    padding: 0px 0px 0px 0px !important;
+    &:hover {
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+    }
+  }
+  .custom-card-title {
+    padding-top: 0px !important;
+    color: $white_color;
+    margin-top: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .card-block {
+    padding: 0px !important;
+    margin: 0px 0px 40px 0px !important;
+  }
+  .custom-card-text {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+  }
+  .star-icon {
+    background-color: $white_color;
+    color: $color_2;
+  }
+  .card-rating-block {
+    display: block !important;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 12px !important;
+    border-top: 1px solid #e9e9eb;
+    padding-top: 10px;
+  }
+  .offer-image {
+    &:hover {
+      transform: none;
+    }
+  }
+  .offer-block {
+    margin-top: 5px !important;
+    margin-bottom: 10px !important;
+    border: none;
+  }
+  .offer-text {
+    padding: 0px;
+    font-size: 0.8rem;
+  }
+}
+// mobile sizes media query - start

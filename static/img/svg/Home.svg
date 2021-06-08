@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <clipPath id="clip-Home">
+      <rect width="150" height="150"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-Home)">
+    <rect width="150" height="150" fill="#fff"/>
+    <g id="outline-home-24px" transform="translate(7.588 16.9)">
+      <path id="Path_4723" data-name="Path 4723" d="M67.412,3,2,61.87H21.623V114.2H60.87V74.953H73.953V114.2H113.2V61.87h19.623Z" fill="none" stroke="#242a4b" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

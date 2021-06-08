@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.11 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #424248;
+      }
+    </style>
+  </defs>
+  <path id="bookmark-outline" class="cls-1" d="M19.666,21.333l-6.111-2.664L7.444,21.333V5.444H19.666m0-2.444H7.444A2.444,2.444,0,0,0,5,5.444V25l8.555-3.667L22.11,25V5.444A2.444,2.444,0,0,0,19.666,3Z" transform="translate(-5 -3)"/>
+</svg>

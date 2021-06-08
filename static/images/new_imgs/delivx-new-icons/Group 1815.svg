@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #535665;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_1815" data-name="Group 1815" transform="translate(2158 1259)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="25" cy="25" r="25" transform="translate(-2158 -1259)"/>
+    <g id="favorite-heart-button" transform="translate(-2146 -1265.4)">
+      <g id="favorite" transform="translate(0 20.4)">
+        <path id="Path_4" data-name="Path 4" class="cls-2" d="M13,44.32,11.18,42.5C4.42,36.52,0,32.49,0,27.55A7.049,7.049,0,0,1,7.15,20.4,7.812,7.812,0,0,1,13,23.13a7.812,7.812,0,0,1,5.85-2.73A7.049,7.049,0,0,1,26,27.55c0,4.94-4.42,8.97-11.18,14.95Z" transform="translate(0 -20.4)"/>
+      </g>
+    </g>
+  </g>
+</svg>
